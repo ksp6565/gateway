@@ -1,7 +1,9 @@
 version: 0.2
+
 env:
   variables:
     _PROJECT_NAME: "ksp6565-gateway"
+
 phases:
   install:
     runtime-versions:
@@ -95,5 +97,3 @@ phases:
 #cache:
 #  paths:
 #    - '/root/.m2/**/*'
-
-
